@@ -34,7 +34,7 @@ function MathInput(id) {
         ndate = new Date();
         if (ndate.getTime() > pdate.getTime() + 150) {
             var kc = evt.keyCode;
-            if (kc == 16 || kc == 32) {MIsearchSymbols(tbox);}
+            if (kc == 16 || kc == 32) {MIsearchSymbols(tbox);} 
             pdate = ndate;
         }
     };
